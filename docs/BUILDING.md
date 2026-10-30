@@ -164,7 +164,7 @@ GitHub rejects files over 100 MiB, so the built APKG is deliberately not committ
 3. Draft a GitHub release for the tag.
 4. Attach `dist/Forkfed_Chinese.apkg`.
 5. Include the SHA-256 from `data/qa.json` in the release notes.
-6. Confirm the README install link points at [Releases](/releases/latest).
+6. Confirm the README install link points at [Releases](https://github.com/oatlayers/forkfed/releases/latest).
 
 To keep a local copy of the source deck, keep it in `source/`; it is ignored by Git.
 

@@ -32,7 +32,7 @@ The source deck is excellent for volume and ordering, but its pinyin and transla
 
 ## Install
 
-1. Open [Releases](/releases/latest) and download `Forkfed_Chinese.apkg`.
+1. Open [Releases](https://github.com/oatlayers/forkfed/releases/latest) and download `Forkfed_Chinese.apkg`.
 2. In Anki, choose **File → Import** (or double-click the file).
 3. On AnkiDroid, download the APKG and open it to import.
 
