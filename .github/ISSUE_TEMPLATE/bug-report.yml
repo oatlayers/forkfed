@@ -1,0 +1,29 @@
+name: Build or package problem
+description: Report a pipeline, packaging, or validation failure
+title: "[Bug] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the failing step and the exact error message.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: Commands, source deck variant, and any edited files.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: OS, Python, Node, and Anki backend version.
+      placeholder: Windows 11, Python 3.14.6, Node 26.10.0, anki 26.9.3
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or stack trace
+      render: shell

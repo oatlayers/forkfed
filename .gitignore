@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build inputs and outputs
+# The source APKG is ~121 MB and the built APKG is ~122 MB; both exceed
+# GitHub's 100 MiB file limit. Publish the built package as a release asset.
+*.apkg
+*.apkg.tmp
+source/*
+!source/README.md
+dist/*
+!dist/README.md
+data/*
+!data/README.md
+!data/feedback_source.txt
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local logs and scratch files
+*.log
+tmp/
+temp/

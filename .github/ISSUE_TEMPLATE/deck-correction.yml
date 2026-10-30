@@ -1,0 +1,53 @@
+name: Deck correction
+description: Report a wrong pinyin reading, translation, character, or audio issue
+title: "[Correction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. One correction per issue is easiest to review.
+        Intentional exceptions are listed in `docs/QUALITY.md` under "Known limits".
+  - type: input
+    id: sentence
+    attributes:
+      label: Sentence (Hanzi)
+      description: The sentence as it appears on the card.
+      placeholder: 我在想你今天会不会来。
+    validations:
+      required: true
+  - type: input
+    id: note-id
+    attributes:
+      label: Note ID or SortOrder (optional)
+      description: Shown in the Anki card browser.
+      placeholder: "00001"
+  - type: textarea
+    id: current
+    attributes:
+      label: Current value
+      description: Current pinyin, translation, character, or audio observation.
+      placeholder: "Wǒ zài xiǎng nǐ jīntiān huìbùhuì lái."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed value
+      description: What should it be, and why?
+      placeholder: "Correct the tone on ..."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Dictionary reference, context, rule, or audio timestamp.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I checked the known limits page and this is not an intentional exception.
+          required: true

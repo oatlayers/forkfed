@@ -1,0 +1,9 @@
+{
+  "name": "forkfed-chinese",
+  "private": true,
+  "description": "Corrected, modular Forkfed Chinese Anki deck pipeline",
+  "license": "MIT",
+  "dependencies": {
+    "pinyin-pro": "^3.29.5"
+  }
+}
