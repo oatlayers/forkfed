@@ -2,6 +2,8 @@
 
 **A corrected, audio-first Mandarin sentence deck for Anki — rebuilt from Spoonfed Chinese with accurate pinyin, tone sandhi, zhuyin, traditional characters, and a clean reading layout.**
 
+**[Download the latest deck](https://github.com/oatlayers/forkfed/releases/latest/download/Forkfed_Chinese.apkg)** · [Release notes](https://github.com/oatlayers/forkfed/releases/latest) · [Build from source](#build-from-source)
+
 [![Anki 2.1+](https://img.shields.io/badge/Anki-2.1%2B-2f6fdb)](https://apps.ankiweb.net/)
 [![Latest release](https://img.shields.io/github/v/release/oatlayers/forkfed?label=release)](https://github.com/oatlayers/forkfed/releases/latest)
 [![Repository checks](https://github.com/oatlayers/forkfed/actions/workflows/checks.yml/badge.svg)](https://github.com/oatlayers/forkfed/actions/workflows/checks.yml)
