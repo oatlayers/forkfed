@@ -3,6 +3,8 @@
 **A corrected, audio-first Mandarin sentence deck for Anki — rebuilt from Spoonfed Chinese with accurate pinyin, tone sandhi, zhuyin, traditional characters, and a clean reading layout.**
 
 [![Anki 2.1+](https://img.shields.io/badge/Anki-2.1%2B-2f6fdb)](https://apps.ankiweb.net/)
+[![Latest release](https://img.shields.io/github/v/release/oatlayers/forkfed?label=release)](https://github.com/oatlayers/forkfed/releases/latest)
+[![Repository checks](https://github.com/oatlayers/forkfed/actions/workflows/checks.yml/badge.svg)](https://github.com/oatlayers/forkfed/actions/workflows/checks.yml)
 [![Notes](https://img.shields.io/badge/notes-7%2C326-55b34a)](#deck-at-a-glance)
 [![Audio](https://img.shields.io/badge/audio-7%2C316%20files-55b34a)](#deck-at-a-glance)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
