@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased — 2026-10-31
+## v0.3.1 Layout and documentation fixes — 2026-10-31
 
 ### Layout fixes
 
