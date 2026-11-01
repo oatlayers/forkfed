@@ -14,6 +14,7 @@
 - Split maintainer detail into `docs/BUILDING.md`, `docs/QUALITY.md`, and `docs/CUSTOMIZING.md`.
 - Added card preview images, `CONTRIBUTING.md`, issue templates, an MIT code license, and third-party notices.
 - Added `.gitignore`, `.gitattributes`, and `.editorconfig`. Generated data and the oversized source/built APKGs stay out of Git; the built deck is published as a release asset.
+- Published the deck on AnkiWeb: [shared deck 1014852370](https://ankiweb.net/shared/info/1014852370).
 - Added a lightweight repository-check workflow for Python syntax, required files, and local documentation links. The full deck pipeline still requires the source APKG.
 
 ## v0.3 Better layout, more accurate translation, remove duplicates — 2026-10-31

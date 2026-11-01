@@ -2,9 +2,10 @@
 
 **A corrected, audio-first Mandarin sentence deck for Anki — rebuilt from Spoonfed Chinese with accurate pinyin, tone sandhi, zhuyin, traditional characters, and a clean reading layout.**
 
-**[Download the latest deck](https://github.com/oatlayers/forkfed/releases/latest/download/Forkfed_Chinese.apkg)** · [Release notes](https://github.com/oatlayers/forkfed/releases/latest) · [Build from source](#build-from-source)
+**[Download the latest deck](https://github.com/oatlayers/forkfed/releases/latest/download/Forkfed_Chinese.apkg)** · [AnkiWeb shared deck](https://ankiweb.net/shared/info/1014852370) · [Release notes](https://github.com/oatlayers/forkfed/releases/latest) · [Build from source](#build-from-source)
 
 [![Anki 2.1+](https://img.shields.io/badge/Anki-2.1%2B-2f6fdb)](https://apps.ankiweb.net/)
+[![AnkiWeb](https://img.shields.io/badge/AnkiWeb-shared%20deck-2f6fdb)](https://ankiweb.net/shared/info/1014852370)
 [![Latest release](https://img.shields.io/github/v/release/oatlayers/forkfed?label=release)](https://github.com/oatlayers/forkfed/releases/latest)
 [![Repository checks](https://github.com/oatlayers/forkfed/actions/workflows/checks.yml/badge.svg)](https://github.com/oatlayers/forkfed/actions/workflows/checks.yml)
 [![Notes](https://img.shields.io/badge/notes-7%2C326-55b34a)](#deck-at-a-glance)
@@ -36,7 +37,7 @@ The source deck is excellent for volume and ordering, but its pinyin and transla
 
 ## Install
 
-1. Open [Releases](https://github.com/oatlayers/forkfed/releases/latest) and download `Forkfed_Chinese.apkg`.
+1. Download `Forkfed_Chinese.apkg` from [Releases](https://github.com/oatlayers/forkfed/releases/latest) or the [AnkiWeb shared deck](https://ankiweb.net/shared/info/1014852370).
 2. In Anki, choose **File → Import** (or double-click the file).
 3. On AnkiDroid, download the APKG and open it to import.
 
