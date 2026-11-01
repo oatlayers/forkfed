@@ -9,7 +9,7 @@
 [![Latest release](https://img.shields.io/github/v/release/oatlayers/forkfed?label=release)](https://github.com/oatlayers/forkfed/releases/latest)
 [![Repository checks](https://github.com/oatlayers/forkfed/actions/workflows/checks.yml/badge.svg)](https://github.com/oatlayers/forkfed/actions/workflows/checks.yml)
 [![Notes](https://img.shields.io/badge/notes-7%2C326-55b34a)](#deck-at-a-glance)
-[![Audio](https://img.shields.io/badge/audio-7%2C316%20files-55b34a)](#deck-at-a-glance)
+[![Media](https://img.shields.io/badge/media-7%2C316%20files-55b34a)](#deck-at-a-glance)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 | Front — pinyin revealed | Back |
@@ -41,7 +41,7 @@ The source deck is excellent for volume and ordering, but its pinyin and transla
 2. In Anki, choose **File → Import** (or double-click the file).
 3. On AnkiDroid, download the APKG and open it to import.
 
-The package is self-contained and about **116 MiB** because every note includes audio. It works on Anki desktop and AnkiDroid; no add-ons or extra fonts are required.
+The package is self-contained and about **116 MiB** because the deck includes audio. It works on Anki desktop and AnkiDroid; no add-ons or extra fonts are required.
 
 > If the Releases page does not have an APKG yet, build it with the instructions in [Build from source](#build-from-source).
 
@@ -53,7 +53,7 @@ The package is self-contained and about **116 MiB** because every note includes 
 | --- | --- |
 | Notes | **7,326** |
 | Lines | **7,381** — including 51 A/B dialogue notes |
-| Audio | **7,316 files**, referenced by all 7,326 notes |
+| Media | **7,316 files** — 7,307 referenced, including one image; 9 unused duplicate audio files |
 | Pinyin corrections | **1,278** across 1,172 notes |
 | Tone-sandhi changes | **1,992** syllables across 1,761 notes |
 | Traditional / zhuyin | 7,326 notes; 0 zhuyin failures, 0 bold mismatches |

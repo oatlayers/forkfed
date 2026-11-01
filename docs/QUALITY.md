@@ -9,7 +9,7 @@ The deck is generated, not hand-edited note by note. Every correction and every 
 | Notes / cards | 7,326 / 7,326 |
 | Lines | 7,381 |
 | A/B dialogue notes | 51 |
-| Audio files | 7,316 unique files; 7,326 note references |
+| Media files | 7,316 unique files: 7,307 referenced (7,306 audio + 1 image), 9 unused duplicates |
 | Digit-bearing notes | 100 |
 | Notes with Latin tokens | 94 |
 | Pinyin corrections | 1,278 across 1,172 notes |
@@ -84,6 +84,7 @@ python scripts/10_anki_import_test.py
 ## Known limits
 
 - **Audio is not edited.** Cuts and spoken/written mismatches are recorded in `data/audio_issues.csv` (25 notes). The source audio files are copied unchanged.
+- **One inherited note** (`这个甜点是经理推荐的。`) has a `.jpg` reference in its `Audio` field instead of an audio file. It is preserved as-is and is the one image counted in the media table.
 - **100 notes keep Arabic numerals in `Hanzi`** and show the reading beside them, for example `100 (yībǎi)`. This dual display is intentional.
 - **100 lines are alignment exceptions** for number/number-expanded or one-character-numeral lines. They are expected and checked by the validator.
 - **361 runs of three or more third tones** cross word or clause boundaries and are intentionally left unmarked under the conservative sandhi policy. They are listed in `data/sandhi_review.csv`.
